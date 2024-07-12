@@ -14,6 +14,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/> -->
     <link rel="stylesheet" href="style.css">
+    <style>
+        .calendar-container {
+          max-width: 7xl;
+          margin: auto;
+          padding: 20px;
+          text-align: center;
+        }
+        .calendar-title {
+          font-size: 32px;
+          font-weight: bold;
+          color: #3182ce;
+          margin-bottom: 16px;
+        }
+        .github-calendar {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 4px;
+        }
+      </style>
+    
 
 </head>
 <body>
@@ -305,6 +326,7 @@
     </section> -->
 
     <!-- github secttion start -->
+
     <section class="react-activity-calendar services">
         <div class="max-width">
             <h2 class="title">GitHub</h2>
@@ -318,6 +340,16 @@
                       
                     </div>
                 </div> -->
+                <div class="calendar-container">
+                    <div class="calendar-title">
+                      Github Calendar
+                    </div>
+                    <div id="github-calendar" class="github-calendar">
+                      <!-- Embed GitHub Calendar SVG -->
+                      <img src="https://ghchart.rshah.org/sagu29" alt="VishalG197's GitHub Calendar" />
+                    </div>
+                  </div>
+                
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
@@ -425,4 +457,5 @@
     GitHubCalendar(".react-activity-calendar", "sagu29");
     GitHubCalendar(".react-activity-calendar", "sagu29", { responsive: true });
 </script> -->
+
 </html>
